@@ -171,6 +171,9 @@ ________________________________ */
 /* /Mid Page Grey Label */
 
 /* Floating Pannels */
+.box{
+    width: 100%;
+}
 .column{
     float: left;
     width: 33,3333%;
@@ -178,7 +181,20 @@ ________________________________ */
     background-color: white;
 }
 
-.banner{
-    width: 100px;
-    height: 100px;
+.pannel_text{
+    width: 50%
+}
+
+img{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.column h3::after{
+    height: 3px;
+    width: 30%;
+    border: 1px solid grey;
+    background-color: grey;
+    margin: auto;
 }
