@@ -4,3 +4,22 @@
     margin: 0;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.dbg header {
+    background-color: blue;
+    height: 500px;
+}
+
+.dbg main {
+    background-color: cadetblue;
+    height: 800px;
+}
+
+.dbg footer {
+    background-color: cornflowerblue;
+    height: 200px;
+}
