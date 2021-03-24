@@ -148,6 +148,7 @@ li{
 Main
 ________________________________ */
 
+/* Mid Page Grey Label */
 .site_main .label{
     height: 150px;
     width: 100%;
@@ -166,4 +167,18 @@ ________________________________ */
     text-align: center;
     font-size: 15px;
     color: #808080;
+}
+/* /Mid Page Grey Label */
+
+/* Floating Pannels */
+.column{
+    float: left;
+    width: 33,3333%;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.banner{
+    width: 100px;
+    height: 100px;
 }
