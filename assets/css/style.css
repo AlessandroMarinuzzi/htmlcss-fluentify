@@ -44,6 +44,7 @@ ___________________________ */
     background-size: 900px;
     background-repeat: no-repeat;
     background-position: 110% 110%;
+    color: white;
 }
 
 .site_header a {
@@ -58,7 +59,7 @@ ___________________________ */
     line-height: 60px;
 }
 
-.container{
+.nav_bar{
     width: 85%;
     margin: auto;
 }
@@ -103,5 +104,29 @@ li{
     border: 1px solid #7CBB02;
     background-color: #7CBB02 ;
 }
-
 /* /Right_menu */
+
+/* Text_Container */
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.text_container{
+    width: 35%;
+}
+
+.title{
+    font-size: 35px;
+}
+
+.subtitle{
+    padding: 5px;
+    background-color: #7CBB02 ;
+    border-radius: 5px;
+}
+
+
+
+/* /Text_Container */
+
