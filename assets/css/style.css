@@ -15,10 +15,6 @@ body{
     height: 500px;
 } */
 
-.dbg main {
-    background-color: white;
-   
-}
 
 .dbg footer {
     background-color: cornflowerblue;
@@ -70,7 +66,7 @@ ___________________________ */
 
 .logo {
     width: 15%;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 li{
@@ -128,7 +124,7 @@ li{
 .title{
     font-size: 45px;
     margin-top: 150px;
-    padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .site_header .title_button{
@@ -158,7 +154,6 @@ ________________________________ */
 
 .label>h2{
     text-align: center;
-    margin-top: 0;
     padding-top: 60px;
     
 }
@@ -166,13 +161,15 @@ ________________________________ */
 .label>p{
     text-align: center;
     font-size: 15px;
+    margin-top: 10px;
     color: #808080;
 }
 /* /Mid Page Grey Label */
 
 /* Floating Pannels */
 .box{
-    width: 100%;
+    width: 95%;
+    margin: auto;
 }
 .column{
     float: left;
@@ -203,3 +200,16 @@ ________________________________ */
 
 }
 
+.column h2::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: grey;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+}
+
+hr{
+    color: grey;
+}
