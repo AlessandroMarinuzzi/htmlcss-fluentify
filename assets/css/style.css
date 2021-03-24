@@ -1,4 +1,4 @@
-*/{
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -16,8 +16,8 @@ body{
 } */
 
 .dbg main {
-    background-color: cadetblue;
-    height: 800px;
+    background-color: white;
+   
 }
 
 .dbg footer {
@@ -176,25 +176,30 @@ ________________________________ */
 }
 .column{
     float: left;
-    width: 33,3333%;
-    margin-right: 20px;
+    width: 31.3333%;
+    margin:1%;
+    padding: 40px;
     background-color: white;
 }
 
-.pannel_text{
-    width: 50%
-}
-
-img{
+.column img{
     height: 150px;
     display: block;
     margin: auto;
 }
 
-.column h3::after{
-    height: 3px;
-    width: 30%;
-    border: 1px solid grey;
-    background-color: grey;
-    margin: auto;
+.column h2, .column p{
+    text-align: center;
+    margin: 10% 10%;
 }
+
+.column h2{
+    color: #7CBB02;
+}
+
+.column p{
+    color: #808080;
+    font-size: 15px;
+
+}
+
