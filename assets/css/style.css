@@ -60,7 +60,7 @@ ___________________________ */
 }
 
 .nav_bar{
-    width: 85%;
+    width: 80%;
     margin: auto;
 }
 
@@ -104,29 +104,66 @@ li{
     border: 1px solid #7CBB02;
     background-color: #7CBB02 ;
 }
+
+.solid_button:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+}
+
+.empty_button:hover{
+    background-color: #7CBB02;
+}
 /* /Right_menu */
 
 /* Text_Container */
 .container{
-    width: 85%;
+    width: 80%;
     margin: auto;
 }
 
 .text_container{
-    width: 35%;
+    width: 50%;
 }
 
 .title{
-    font-size: 35px;
+    font-size: 45px;
+    margin-top: 150px;
+    padding-bottom: 20px;
 }
 
-.subtitle{
-    padding: 5px;
+.site_header .title_button{
+    padding: 15px;
     background-color: #7CBB02 ;
     border-radius: 5px;
 }
 
-
-
+.site_header .title_button:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+}
 /* /Text_Container */
 
+
+/* ____________________________
+Main
+________________________________ */
+
+.site_main .label{
+    height: 150px;
+    width: 100%;
+    background-color: #d3d3d3;
+    padding-top: 0;
+}
+
+.label>h2{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 60px;
+    
+}
+
+.label>p{
+    text-align: center;
+    font-size: 15px;
+    color: #808080;
+}
