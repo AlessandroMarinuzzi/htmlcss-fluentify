@@ -6,13 +6,14 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
 }
 
-.dbg header {
-    background-color: blue;
+/* Debug Rules */
+/* .dbg header {
+    background-color: #0c325a;
     height: 500px;
-}
+} */
 
 .dbg main {
     background-color: cadetblue;
@@ -23,3 +24,84 @@ body{
     background-color: cornflowerblue;
     height: 200px;
 }
+/* /Debug Rules */
+
+/* Utility Rules */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* /Utility Rules */
+
+/* _______________________
+Header
+___________________________ */
+.site_header{
+    height: 500px;
+    background-color: #0c325a;
+    background-image: url(../img/background-header.png);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: 110% 110%;
+}
+
+.site_header a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 5px 8px;
+}
+.site_header nav {
+    height: 60px;
+    line-height: 60px;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.logo, .left_menu, .right_menu{
+    float: left;
+}
+
+.logo {
+    width: 15%;
+    margin-top: 15px;
+}
+
+li{
+    display:inline-block;
+    list-style: none;
+}
+
+/* Left_menu */
+.left_menu{
+    width: 45%;
+}
+/* /Left_menu */
+
+/* Right_menu */
+.right_menu{
+    width: 40%;
+    text-align: right;
+}
+
+.button{
+    padding: 8px 24px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.empty_button{
+    border: 1px solid white;
+}
+
+.solid_button{
+    border: 1px solid #7CBB02;
+    background-color: #7CBB02 ;
+}
+
+/* /Right_menu */
